@@ -11,3 +11,12 @@
 .error {
     background: red;
 }
+
+.bookSize {
+    width: 110px;
+    height: 140px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -15,17 +15,22 @@
     <form id='book-form'>
         <div>
             <label for='title'>Book Title:</label>
-                <input class='u-full-width' type='text' id='title' placeholder="book name">
+                <input class='u-full-width' type='text' id='title' placeholder="Title">
         </div>
 
         <div>
             <label for='author'>Book Author:</label>
-                <input class='u-full-width' type='text' id='author' placeholder="author name">
+                <input class='u-full-width' type='text' id='author' placeholder="Author">
         </div>
 
         <div>        
             <label for='isbn'>Book ISBN:</label>
                 <input class='u-full-width' type='text' id='isbn' placeholder="ISBN">
+        </div>
+
+        <div>        
+            <label for='bookImg'>Image:</label>
+                <input class='u-full-width' type='text' id='bookImg' placeholder="URL">
         </div>
 
         <button class='u-full-width'>Submit</button>
@@ -38,11 +43,11 @@
                     <th>Title</th>
                     <th>Author</th>
                     <th>ISBN#</th>
+                    <th>Image</th>
                     <th>Delete</th>
                 </tr>
             </thead>
             <tbody id='book-list'>
-
             </tbody>
         </table>
     </div>
