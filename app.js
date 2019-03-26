@@ -28,8 +28,6 @@ UI.prototype.clearFields = function() {
     document.getElementById('title').value = '';
     document.getElementById('author').value = '';
     document.getElementById('isbn').value = '';
-    
-
 }
 
 UI.prototype.showAlert = function(alert, className) {
