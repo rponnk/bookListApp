@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BookList</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css'>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+<div class='container'>
+    <h1><span>Book List</span></h1>
+    
+    <form id='book-form'>
+        <div>
+            <label for='title'>Book Title:</label>
+                <input class='u-full-width' type='text' id='title' placeholder="book name">
+        </div>
+
+        <div>
+            <label for='author'>Book Author:</label>
+                <input class='u-full-width' type='text' id='author' placeholder="author name">
+        </div>
+
+        <div>        
+            <label for='isbn'>Book ISBN:</label>
+                <input class='u-full-width' type='text' id='isbn' placeholder="ISBN">
+        </div>
+
+        <button class='u-full-width'>Submit</button>
+    </form>
+
+    <div>
+        <table class='u-full-width'>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id='book-list'>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+    <!-- using es5
+         <script src="app.js"></script> -->
+    <script src="appes6.js"></script>
+</body>
+</html>
